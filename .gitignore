@@ -1,0 +1,69 @@
+# Model weights and exported models
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.tflite
+*.torchscript
+*.safetensors
+
+# Training, validation, and prediction outputs
+runs/
+outputs/
+artifacts/
+wandb/
+mlruns/
+
+# Raw and processed datasets
+/datasets/
+/sourcedata/
+/irrelevant_files/
+bronze_*/images/
+bronze_*/labels/
+bronze_*/real/
+bronze_*/data/raw/
+bronze_*/data/processed/
+
+# Ultralytics dataset caches
+*.cache
+
+# Python bytecode and tool caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Conda / Anaconda / virtual-environment directories
+/.conda/
+/anaconda3/
+/miniconda3/
+/conda-env/
+/env/
+/envs/
+/.venv/
+/venv/
+/ENV/
+
+# IDE and operating-system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local logs and command transcripts
+*.log
+*-local-command-caveatcaveat-the-messages-below.txt
+*trainresult.txt
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.swp
+~$*

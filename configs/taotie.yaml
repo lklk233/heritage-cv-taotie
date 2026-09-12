@@ -1,0 +1,8 @@
+# 青铜器纹饰识别 — 兽面纹（饕餮纹）单类别配置
+# 从项目根目录运行训练脚本；本地数据目录不会提交到 Git。
+path: irrelevant_files/datasets/taotie
+train: images/train
+val: images/val
+
+nc: 1
+names: ['taotie']

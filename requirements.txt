@@ -1,0 +1,34 @@
+# 青铜器纹饰 YOLOv8 项目依赖
+# 安装方式: pip install -r requirements.txt
+# 注意: PyTorch 需根据 CUDA 版本单独安装，见下方说明
+
+# ===== 核心依赖 =====
+ultralytics>=8.4.0
+torch>=2.8.0
+torchvision>=0.23.0
+torchaudio>=2.8.0
+
+# ===== 图像处理 =====
+opencv-python>=4.13.0
+pillow>=12.0.0
+
+# ===== 数据处理与可视化 =====
+numpy>=2.4.0
+matplotlib>=3.10.0
+scipy>=1.17.0
+
+# ===== 标注工具 =====
+labelImg>=1.8.6
+lxml>=6.0.0
+python-docx>=1.1.0
+
+# ===== 通用工具 =====
+PyYAML>=6.0
+requests>=2.32.0
+
+# ===== PyTorch 安装说明 =====
+# 如果你有 NVIDIA GPU (CUDA 12.6)，使用以下命令安装 PyTorch:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+#
+# 如果仅使用 CPU:
+#   pip install torch torchvision torchaudio
