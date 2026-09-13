@@ -76,7 +76,6 @@ python src/taotie/predict.py --model path/to/best.pt --source path/to/images --o
 
 ## 当前结果
 
-现有实验使用 76 张兽面纹线稿正样本和 19 张蟠龙纹负样本。训练集经过离线增强后包含 300 张图片，验证集包含 20 张图片。最终实验文件见 `results/taotie_train4/`。
 
 需要注意：当前正样本采用覆盖整张图片的边界框，因此结果主要反映整图级纹饰识别能力，不能等同于真实文物照片中的精确区域定位能力。
 
@@ -89,4 +88,3 @@ python src/taotie/predict.py --model path/to/best.pt --source path/to/images --o
 - YOLO 预训练权重和训练权重；
 - PDF、Word、训练日志与本地缓存。
 
-这些文件在本地统一保存在 `irrelevant_files/`，并由 `.gitignore` 排除。
